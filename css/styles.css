@@ -1,5 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
   }
 
 header {
@@ -16,16 +18,20 @@ header {
 }
 
 .logo {
+    font-family: "Raleway", sans-serif;
     display: inline-block;
-    color: #2E2F42;
+    color: #4d5ae5;
     font-size: 18px;
     font-weight: 700;
     text-decoration: none;
     margin-right: 50px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .webspan {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
 .heder-nav {
@@ -63,6 +69,7 @@ header {
     display: inline;
     margin-right: 24px;
     margin-left: 24px;
+    font-style: normal;
     
 }
 
@@ -109,7 +116,8 @@ header {
     align-content: center;
 }
 
-h1 {
+
+.main-title {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -118,7 +126,9 @@ h1 {
     font-size: 56px;
     font-weight: 700;
     text-align: center;
-
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 .service-button {
@@ -134,9 +144,17 @@ h1 {
     color: #FFFFFF;
     padding: 16, 32px, 16px, 32px;
     margin: 50px, auto, auto, auto;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .service-button:hover {
+    background-color: #404BBF;
+}
+
+.service-button:focus {
     background-color: #404BBF;
 }
 
@@ -144,6 +162,15 @@ h1 {
 .about-us {
     height: 350px;
     align-content: center;
+}
+
+.about-us-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-align: center;
 }
 
 .about-us-list{
@@ -166,14 +193,16 @@ h1 {
     text-align: left;
 }
 
-.about-us-li>h3{
+.about-us-name{
     color: #2E2F42;
     font-size: 20px;
 }
 
-.about-us-li>p{
+.about-us-text{
     color: #434455;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 
@@ -189,6 +218,9 @@ h1 {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .team-list {
@@ -212,17 +244,20 @@ h1 {
     text-align: center;
 }
 
-.description>h3 {
+.description-title {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
-.description>p {
+.description-text {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .portfolio {
@@ -236,6 +271,9 @@ h1 {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .portfolio-list {
@@ -252,25 +290,26 @@ h1 {
     height: 420px;
     margin: 5px;
     text-align: left;
-}
-
-.portfolio-description {
     text-indent: 3%;
 }
 
-.portfolio-description>h3 {
+.portfolio-name {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
-.portfolio-description>p {
+.portfolio-text {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-footer {
+.our-footer {
     background-color: #2E2F42;
     height: 312px;
     align-content: center;
@@ -283,12 +322,8 @@ footer {
     margin-left: 156px;
 }
 
-.logo-footer {
-    display: block;
+.webspan-footer {
     color: #F4F4FD;
-    font-size: 18px;
-    font-weight: 700;
-    text-decoration: none;
 }
 
 .footer-text {
