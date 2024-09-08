@@ -6,16 +6,13 @@ body {
 
 
 .header-block {
-    display: block;
     background-color: #FFFFFF;
     color: #2E2F42;
-    height: 72px;
     align-content: center;
 }
 
 .logo {
     font-family: "Raleway", sans-serif;
-    display: inline-block;
     color: #4d5ae5;
     font-size: 18px;
     font-weight: 700;
@@ -31,20 +28,14 @@ body {
 }
 
 .heder-nav {
-    display: inline-block;
     font-size: 16px;
     font-weight: 700;
 }
 
-.header-nav-menu {
-    display: inline-block;
-}
 
 
 .header-nav-element {
-    display: inline;
     list-style-type: none;
-    width: 66px;
     margin-left: 24px;
     margin-right: 24px;
 }
@@ -67,8 +58,11 @@ body {
     color: #404BBF;
 }
 
+.header-nav-link:focus{
+    color: #404BBF;
+}
+
 .header-addr {
-    display: inline;
     margin-right: 24px;
     margin-left: 24px;
     font-style: normal;
@@ -76,7 +70,6 @@ body {
 }
 
 .header-nav-addr{    
-    display: inline;
     float: right;
     font-size: 16px;
     font-weight: 400;
@@ -85,9 +78,7 @@ body {
 }
 
 .header-addr-element {
-    display: inline;
     list-style-type: none;
-    width: 150px;
     margin-right: 24px;
     margin-left: 24px;
 }
@@ -109,41 +100,35 @@ body {
     color: #404BBF;
 }
 
+.link:focus{
+    color: #404BBF;
+}
+
 
 .service-section {
     background-color: #2E2F42;
-    height: 600px;
     color: #FFFFFF;
     align-content: center;
 }
 
 
 .main-title {
-    display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 120px;
-    width: 550px;
     font-size: 56px;
     font-weight: 700;
     text-align: center;
-    font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
 
 .service-button {
-    display: block;
     margin-left: auto;
     margin-right: auto;
     background-color: #4D5AE5;
-    width: 169px;
-    height: 56px;
     font-size: 16px;
     font-weight: 500;
-    border-radius: 4px;
     color: #FFFFFF;
-    padding: 16, 32px, 16px, 32px;
     margin: 50px, auto, auto, auto;
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
@@ -161,7 +146,6 @@ body {
 
 
 .about-us {
-    height: 350px;
     align-content: center;
 }
 
@@ -175,16 +159,12 @@ body {
 }
 
 .about-us-list{
-    display: block;
     list-style-type: none;
     text-align: center;
 }
 
 
 .about-us-li{
-    display: inline-block;
-    width: 264px;
-    height: 350px;
     margin-left: 24px;
     margin-right: 24px;
     text-align: left;
@@ -209,7 +189,6 @@ body {
 
 .team {
     background-color: #F4F4FD;
-    height: 732px;
     align-content: center;
 }
 
@@ -224,19 +203,13 @@ body {
 }
 
 .team-list {
-    display: block;
     list-style-type: none;
     text-align: center;
 }
 
 .team-card {
-    display: inline-block;
-    width: 264px;
-    height: 360px;
     margin-left: 24px;
     margin-right: 24px;
-    border-radius: 0px, 0px, 4px, 4px;
-    box-shadow: 3px, 3px, 4px, #2E2F4229;
     background-color: #FFFFFF;
     text-align: center;
 }
@@ -258,8 +231,6 @@ body {
 }
 
 .portfolio {
-    height: 1000px;
-    width: 1200;
     align-content: center;
 }
 
@@ -274,17 +245,13 @@ body {
 }
 
 .portfolio-list {
-    display: block;
     list-style-type: none;
     text-align: center;
 }
 
 .portfolio-card {
-    display: inline-block;
     border-style: solid;
     border-color: #E7E9FC;
-    width: 360px;
-    height: 420px;
     margin: 5px;
     text-align: left;
     text-indent: 3%;
@@ -308,7 +275,6 @@ body {
 
 .our-footer {
     background-color: #2E2F42;
-    height: 312px;
     align-content: center;
 }
 
